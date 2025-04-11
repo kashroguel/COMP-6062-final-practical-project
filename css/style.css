@@ -1,0 +1,88 @@
+@media(max-width: 650px) 
+{   
+}
+
+body
+{
+    background-image: url('https://img.freepik.com/premium-photo/black-gold-wallpaper-with-black-gold-background_575980-1137.jpg');
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+ 
+}
+.top
+{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-black-friday-black-gold-metal-technology-image_18510.jpg');
+    color: goldenrod;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-emphasis-color: black;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+.weatherSearch
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    min-height: 200px;
+    text-align: left;
+    padding: 20px;  
+    border-spacing: 5px;  
+}
+.weatherResult
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    min-height: 100px;
+    text-align: left;
+    padding: 20px;  
+    border-spacing: 5px;  
+}
+
+.profile
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: lightcyan;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+img.rounded-circle 
+{
+    border: 3px solid goldenrod;
+}
+
+.dictionary
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: lightcyan;
+    min-height: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.custom-btn 
+{
+    background-color: darkslategrey;
+    color: white;
+    font-size: 16px;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 4px;
+}
+.define-btn 
+{
+    background-color: darkslategrey;
+    color: white;
+    font-size: 16px;
+    padding: 7px 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer
+{
+    color: gold;
+}
