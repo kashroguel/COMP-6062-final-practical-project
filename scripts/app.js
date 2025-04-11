@@ -37,7 +37,7 @@ const app = Vue.createApp({
                 };
               })
                 .catch(error => {
-                console.error("Error! fetching weather failed:", error);
+                console.log("Error! fetching weather failed:", error);
               });
           },
         fetchProfile(){
@@ -52,7 +52,7 @@ const app = Vue.createApp({
               };
             })
             .catch(error => {
-              console.error("Error! fetching user profile failed:", error);
+              console.log("Error! fetching user profile failed:", error);
             });
         },
         fetchDefinition() {
@@ -77,7 +77,7 @@ const app = Vue.createApp({
              }
             })
             .catch(error => {
-              console.error("Error! fetching definition failed:", error);
+              console.log("Error! fetching definition failed:", error);
             });
         }
       },
