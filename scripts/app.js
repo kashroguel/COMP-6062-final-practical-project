@@ -56,7 +56,7 @@ const app = Vue.createApp({
             });
         },
         fetchDefinition() {
-          if (!this.wordInput.trim()) return;
+          if (!this.wordInput) return;
           const url = `https://comp6062.liamstewart.ca/define?word=${this.wordInput}`;
           fetch(url)
             .then(response => response.json())
@@ -85,8 +85,7 @@ const app = Vue.createApp({
         this.fetchProfile();
         this.fetchWeather();
         this.fetchDefinition();
-      }
-      
+      }      
 });
 // this connects to the div with the id of app
 app.mount('#app');
